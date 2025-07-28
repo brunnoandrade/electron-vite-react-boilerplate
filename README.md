@@ -1,6 +1,10 @@
+<div align="center">
+
 # Electron Vite React Boilerplate
 
-<img width="507" height="266" alt="Electron Vite React Boilerplate" src="https://github.com/user-attachments/assets/be17b65f-8af3-44fa-8d8a-784a5adbc53a" />
+<img width="467" height="244" alt="Electron Vite React" src="https://github.com/user-attachments/assets/6faa94b9-1401-41a3-a0b1-51b07fd02b52" style="margin-bottom: 16px;" />
+
+</div>
 
 🚀 A modern and minimal boilerplate to build desktop applications using **Electron**, **Vite**, **React**, and **TypeScript**.
 
@@ -10,11 +14,11 @@ Perfect for quickly starting scalable, fast, and cross-platform desktop apps wit
 
 ## ⚙️ Technologies Used
 
-- ⚡️ [Vite](https://vitejs.dev/)
-- ⚛️ [React](https://reactjs.org/)
-- 🧠 [TypeScript](https://www.typescriptlang.org/)
-- 🖥️ [Electron](https://www.electronjs.org/)
-- 📦 [Electron Builder](https://www.electron.build/)
+* ⚡️ [Vite](https://vitejs.dev/)
+* ⚛️ [React](https://reactjs.org/)
+* 🧠 [TypeScript](https://www.typescriptlang.org/)
+* 🖥️ [Electron](https://www.electronjs.org/)
+* 📦 [Electron Builder](https://www.electron.build/)
 
 ---
 
@@ -48,6 +52,8 @@ npm run dev
 ├── dist/                # Vite production build (React frontend)
 ├── dist-electron/       # Electron build output
 ├── electron/            # Electron main and preload source files
+│   ├── main/
+│   └── preload/
 ├── public/              # Static public assets
 ├── src/                 # React renderer application
 ├── vite.config.ts       # Vite configuration
@@ -61,9 +67,9 @@ npm run dev
 Contributions make the open-source community an amazing place to learn, inspire, and create. Any contribution you make is **greatly appreciated**.
 
 1. Fork the project
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
 ---
@@ -79,3 +85,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 **Bruno Andrade**
 📧 [brunnoandradi@gmail.com](mailto:brunnoandradi@gmail.com)
 🔗 [GitHub](https://github.com/brunnoandrade)
+🌐 [Website](https://brunnoandrade.com)
