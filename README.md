@@ -1,5 +1,7 @@
 # Electron Vite React Boilerplate
 
+<img width="507" height="266" alt="Electron Vite React Boilerplate" src="https://github.com/user-attachments/assets/be17b65f-8af3-44fa-8d8a-784a5adbc53a" />
+
 🚀 A modern and minimal boilerplate to build desktop applications using **Electron**, **Vite**, **React**, and **TypeScript**.
 
 Perfect for quickly starting scalable, fast, and cross-platform desktop apps with hot reload and a clean project structure.
