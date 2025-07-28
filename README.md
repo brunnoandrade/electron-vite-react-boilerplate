@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+# Electron Vite React Boilerplate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 A modern and minimal boilerplate to build desktop applications using **Electron**, **Vite**, **React**, and **TypeScript**.
 
-Currently, two official plugins are available:
+Perfect for quickly starting scalable, fast, and cross-platform desktop apps with hot reload and a clean project structure.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ⚙️ Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- ⚡️ [Vite](https://vitejs.dev/) — lightning-fast frontend build tool
+- ⚛️ [React](https://reactjs.org/) — declarative UI framework
+- 🧠 [TypeScript](https://www.typescriptlang.org/) — static typing for better DX
+- 🖥️ [Electron](https://www.electronjs.org/) — cross-platform desktop runtime
+- 🧩 Modular structure with `main`, `preload`, and `renderer`
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## 🛠️ Getting Started
+
+### 1. Clone from the template
+
+```bash
+npx degit brunnoandrade/electron-vite-react-boilerplate my-app
+cd my-app
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
