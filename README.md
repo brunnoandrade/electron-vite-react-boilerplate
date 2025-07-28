@@ -1,10 +1,8 @@
-<div align="center">
+<div align="center" style="margin-top: 0;">
+<img width="467" height="244" alt="Electron Vite React" src="https://github.com/user-attachments/assets/6faa94b9-1401-41a3-a0b1-51b07fd02b52" />
+</div>
 
 # Electron Vite React Boilerplate
-
-<img width="467" height="244" alt="Electron Vite React" src="https://github.com/user-attachments/assets/6faa94b9-1401-41a3-a0b1-51b07fd02b52" style="margin-bottom: 16px;" />
-
-</div>
 
 🚀 A modern and minimal boilerplate to build desktop applications using **Electron**, **Vite**, **React**, and **TypeScript**.
 
