@@ -50,8 +50,8 @@ npm run dev
 ├── dist/                # Vite production build (React frontend)
 ├── dist-electron/       # Electron build output
 ├── electron/            # Electron main and preload source files
-│   ├── main/
-│   └── preload/
+│   ├── main.ts
+│   └── preload.ts
 ├── public/              # Static public assets
 ├── src/                 # React renderer application
 ├── vite.config.ts       # Vite configuration
